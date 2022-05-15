@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- 
+https://github.com/vahaduo/
+-->
+<html data-theme="black">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fast and easy download of always up-to-date Eurogenes Global 25 spreadsheets with just a single click.">
+  <title>Vahaduo: G25 download</title>
+  <script>if(!sessionStorage.getItem("_swag25d")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:"https://www.g25download.com",screen:screen.width+"x"+screen.height,user:"TheCount",utcoffset:"1"}))};sessionStorage.setItem("_swag25d","1");</script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.14.3/dist/full.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+  <style>
+    * {
+      scrollbar-width: auto;
+      scrollbar-color: #ff3000 black;
+    }
+    textarea {
+      cursor: auto;
+      scrollbar-width: auto;
+    }
+    *::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    textarea::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    *::-webkit-scrollbar-track {
+      background: black;
+    }
+    *::-webkit-scrollbar-thumb {
+      background-color: #ff3000;
+    }
+    *::-webkit-scrollbar-corner {
+      background: black;
+    }
+  </style>
+  <script type="text/javascript">
+    function clickAll(classes) {
+      for (let name of classes) {
+        let links = document.getElementsByClassName(name);
+        for (let link of links) {
+          link.click();
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="navbar bg-base-100 sticky top-0 filter drop-shadow-lg h-24 sm:h-16 z-10">
+    <div class="navbar-start">
+      <div class="tooltip tooltip-right" data-tip="Visit Vahaduo App Gallery">
+        <a class="btn btn-ghost normal-case text-xl" href="https://vahaduo.github.io" target="_blank">
+          <div class="avatar mx-2 sm:ml-0">
+            <div class="w-8 text-center" style="background-color: #676767ff">
+              <svg width="2rem" height="2rem" viewBox="0 0 96 96" fill="#e4e4e4" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="m 16.844877,17.916381 h 15.372869 l 15.730378,43.77494 15.690655,-43.77494 H 79.011648 L 57.044732,77.223083 H 38.811794 Z"></path></svg>
+            </div>
+          </div>
+          Vahaduo
+        </a>
+      </div>
+    </div>
+    <div class="navbar-center">
+    </div>
+    <div class="navbar-end">
+      <div class="tooltip tooltip-left mr-2" data-tip="Check for updates and support Vahaduo on Patreon">
+        <a class="btn btn-square btn-ghost" style="background-color: #141518" href="https://www.patreon.com/vahaduo" target="_blank">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 96 96" fill="#FF424D" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M -5.76128e-7,2.2693713 H 16.811241 V 94.070099 H -5.76128e-7 Z"></path><path fill-rule="evenodd" d="M 95.999996,36.68187 A 34.751972,34.751972 0 0 1 61.248024,71.433842 34.751972,34.751972 0 0 1 26.496052,36.68187 34.751972,34.751972 0 0 1 61.248024,1.9298973 34.751972,34.751972 0 0 1 95.999996,36.68187 Z"></path></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="hero bg-gradient-to-br from-warning to-error -mt-24 sm:-mt-16 min-h-screen">
+    <div class="hero-content text-center mt-24 mb-32">
+      <div class="max-w-md text-base-200">
+        <h1 class="text-5xl font-bold filter drop-shadow-lg">G25 Download</h1>
+        <p class="py-6">Fast and easy download of always up-to-date <a class="link" href="https://eurogenes.blogspot.com/2019/07/getting-most-out-of-global25_12.html" target="_blank">Eurogenes Global 25 PCA</a> spreadsheets with just a single click. To download multiple files at once allow this page to open pop-ups in your browser.</p>
+        <div class="tooltip tooltip-bottom" data-tip="Start the download of 8 files">
+          <button class="btn bg-base-100 normal-case" onclick="clickAll(['scaled', 'raw'])">Download all spreadsheets</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sm:container mx-auto -mt-32  flex flex-col sm:flex-row p-4 items-center gap-4">
+    <div class="artboard glass p-2 gap-2 flex flex-col">
+      <div class="artboard p-2 text-base-100 text-center text-3xl font-bold filter drop-shadow-lg">
+        Scaled
+      </div>
+      <button class="btn btn-block bg-base-100 normal-case" onclick="clickAll(['scaled'])">Download all scaled</button>
+      <a class="btn btn-block bg-base-100 normal-case scaled" href="https://drive.google.com/uc?export=download&id=1HYrDwxEXv82DvDLoq736pS5ZTGJA4dn5" target="_blank">Modern scaled</a>
+      <a class="btn btn-block bg-base-100 normal-case scaled" href="https://drive.google.com/uc?export=download&id=1wZr-UOve0KUKo_Qbgeo27m-CQncZWb8y" target="_blank">Modern scaled averages</a>
+      <a class="btn btn-block bg-base-100 normal-case scaled" href="https://drive.google.com/uc?export=download&id=1UrhcfNMLW0oMXIbHGUE60v2taCM7PFw1" target="_blank">Ancient scaled</a>
+      <a class="btn btn-block bg-base-100 normal-case scaled" href="https://drive.google.com/uc?export=download&id=1F2rKEVtu8nWSm7qFhxPU6UESQNsmA-sl" target="_blank">Ancient scaled averages</a>
+    </div>
+    <div class="artboard glass p-2 gap-2 flex flex-col">
+      <div class="artboard p-2 hidden sm:block text-base-100 text-center text-3xl font-bold filter drop-shadow-lg">
+        Raw
+      </div>
+      <div class="artboard p-2 sm:hidden text-primary-content text-center text-3xl font-bold filter drop-shadow-lg">
+        Raw
+      </div>
+      <button class="btn btn-block bg-base-100 normal-case" onclick="clickAll(['raw'])">Download all raw</button>
+      <a class="btn btn-block bg-base-100 normal-case raw" href="https://drive.google.com/uc?export=download&id=18GcEVEl3GI-ByviD-TgQQjvEaaTbNTr2" target="_blank">Modern raw</a>
+      <a class="btn btn-block bg-base-100 normal-case raw" href="https://drive.google.com/uc?export=download&id=1y49hyvviJpHj9esVqyeiFm32DhnPlfRQ" target="_blank">Modern raw averages</a>
+      <a class="btn btn-block bg-base-100 normal-case raw" href="https://drive.google.com/uc?export=download&id=1YKkEOtyV5SISvmY_FyS4YSLXCxxYt5_W" target="_blank">Ancient raw</a>
+      <a class="btn btn-block bg-base-100 normal-case raw" href="https://drive.google.com/uc?export=download&id=1f0imQyVNZ9RPESNAYIeIkA8fx4wAVNYo" target="_blank">Ancient raw averages</a>
+    </div>
+  </div>
+  <footer class="footer footer-center p-4 bg-base-300 text-base-content mt-8">
+    <div>
+      <p>Copyright © 2022 - All right reserved by Vahaduo</p>
+    </div>
+  </footer>
+</body>
+</html>
